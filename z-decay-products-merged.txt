@@ -1,0 +1,189 @@
+
+
+
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Swan</title>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" type="image/x-icon" href="/hub/static/swan/logos/favicon.ico?v=59b49a472df947c2d0128e111ded3d8f1777024fad227cd51dd1b13a5d37e9623d59d315316e88f1f1acfa2d3d960ffd51356a31a99a33a5de123f845a0ef9fe">
+
+    
+    <link rel="stylesheet" href="/hub/static/css/style.min.css?v=0a0508e2523bfc72e8e56c635fbe1778b63eac079a8364da92a699f0ef51a6f817edf0ba3bf533fd8d8c5ab18ca25cd9bd9d3c546ef56d264724a95575a6fae8" type="text/css"/>
+    <link rel="stylesheet" href="/hub/static/swan/css/style.css?v=a592c36bc02991b189e01a417f06f392b3547c26a6b996e35411d5bec86ab5d0cf398102ac810f442454bfa7b0c23a9d39657fbe7bdbb5d560aeab928d5a4866" type="text/css"/>
+    
+    
+      <script src="/hub/static/components/requirejs/require.js?v=1ff44af658602d913b22fca97c78f98945f47e76dacf9800f32f35350f05e9acda6dc710b8501579076f3980de02f02c97f5994ce1a9864c21865a42262d79ec" type="text/javascript" charset="utf-8"></script>
+      <script src="/hub/static/components/jquery/dist/jquery.min.js?v=bf6089ed4698cb8270a8b0c8ad9508ff886a7a842278e98064d5c1790ca3a36d5d69d9f047ef196882554fc104da2c88eb5395f1ee8cf0f3f6ff8869408350fe" type="text/javascript" charset="utf-8"></script>
+      <script src="/hub/static/components/bootstrap/dist/js/bootstrap.min.js?v=a014e9acc78d10a0a7a9fbaa29deac6ef17398542d9574b77b40bf446155d210fa43384757e3837da41b025998ebfab4b9b6f094033f9c226392b800df068bce" type="text/javascript" charset="utf-8"></script>
+    
+    <script>
+      require.config({
+          
+          urlArgs: "v=20250826074121",
+          
+          baseUrl: '/hub/static/js',
+          paths: {
+            components: '../components',
+            jquery: '../components/jquery/dist/jquery.min',
+            bootstrap: '../components/bootstrap/dist/js/bootstrap.min',
+            moment: "../components/moment/moment",
+          },
+          shim: {
+            bootstrap: {
+              deps: ["jquery"],
+              exports: "bootstrap"
+            },
+          }
+      });
+    </script>
+    
+    <script type="text/javascript">
+      window.jhdata = {
+        base_url: "/hub/",
+        prefix: "/",
+        
+        
+        admin_access: false,
+        
+        
+        options_form: false,
+        
+        xsrf_token: "MnwxOjB8MTA6MTc1Nzk0ODQxM3w1Ol94c3JmfDY4OlRtOXVaVHBUWVRFdFFuTjBjeTFDYlVKNFgyRlNVSGcwVFVKbmJYTkxhMHBvU0UxUWMxZEthMWg0WmtKc1YyaDNQUT09fDk5NDQ1YTBiMjJjOGMwYjU5MTUzMTJlNTRjZThiZDc4N2YzN2YwYzgzMDQwOTBhYzNhMDA1MDUzYjkwOWQ4M2I",
+      }
+    </script>
+
+    
+    
+
+</head>
+
+<body>
+<noscript>
+  <div id='noscript'>
+    JupyterHub requires JavaScript.<br>
+    Please enable it to proceed.
+  </div>
+</noscript>
+
+
+
+<header>
+    <div id="header-container" class="container">
+        <div class="row">
+            <div class="col-md-3 col-xs-6">
+                <div id="ipython_notebook" class="nav navbar-brand"><a href="/hub/" title='SWAN'><img src='/hub/logo' alt='SWAN' title='Home'/></a></div>
+            </div>
+
+            <div class="col-md-3 col-md-push-6 col-xs-6 control">
+              <div id="buttons-right-wrapper">
+                  <div id="buttons-right">
+                      
+                      
+
+                      
+                  </div>
+              </div>
+          </div>
+
+
+          <div class="middle col-md-6 col-md-pull-3 col-xs-12">
+              
+          </div>
+        </div>
+    </div>
+    <div class="header-bar"></div>
+
+    
+    
+</header>
+
+
+
+
+
+
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="swan-info">
+      <div id="swan-loader">
+        <div class="loader-circle">
+          <img src="/hub/static/swan/logos/logo_swan_letters.png?v=96a00e6996bef6ef25edf905f2de4bf06028aa6ecc4141b73cb7725d2d24e3336e48a3b3c72717d710ec9893b7207718de847939b63f2c5e21e82d9f5f1e0779">
+        </div>
+        <div class="loader-line-mask">
+          <div class="loader-line"></div>
+        </div>
+        <span class="text">Logging you in</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+<div class="modal fade" id="error-dialog" tabindex="-1" role="dialog" aria-labelledby="error-label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="error-label">Error</h4>
+      </div>
+      <div class="modal-body">
+        
+  <div class="ajax-error">
+    The error
+  </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal" data-dismiss="modal">OK</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-8 text">
+                <span class="text-muted">SWAN &copy; Copyright CERN 2016-2025. All rights reserved.</span>
+                <ul class="text-muted">
+                    <li><a target="_blank" href="https://cern.ch/swan/">Home</a></li>
+                    <li><a target="_blank" href="https://swan-community.web.cern.ch/">Community</a></li>
+                    <li><a target="_blank" href="https://cern.service-now.com/service-portal/?id=functional_element&name=swan">Support</a></li>
+                    <li><a target="_blank" href="https://github.com/swan-cern">Github</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-4 logo">
+                <img src="/hub/static/swan/logos/logo_cern.png?v=9ea8aeda1c3e464a27570e6e0aa61f4c8070dc61d5c4f71d8107b7d62a9f6491b65fe137c78cd6557a24fa00f0d6ce7f51e5f8af16f829cf4dd0c11f20de427b" alt="CERN"/>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+<script type="text/javascript">
+  window.location.replace('/hub/oauth_login?next=%2Fhub%2Fapi%2Foauth2%2Fauthorize%3Fclient_id%3Djupyterhub-user-lbarreir%26redirect_uri%3D%252Fuser%252Flbarreir%252Foauth_callback%26response_type%3Dcode%26state%3DeyJ1dWlkIjogImNhMzU2Zjc5YTc4ZTRmMmI5M2E1MjE1MGUzMTg4Yzc2IiwgIm5leHRfdXJsIjogIi91c2VyL2xiYXJyZWlyL2ZpbGVzL1NXQU5fcHJvamVjdHMvUFJPSkVDVC9QeXRoaWEvQlNNL3otZGVjYXktcHJvZHVjdHMtbWVyZ2VkLnR4dD9kb3dubG9hZD0xIiwgImNvb2tpZV9uYW1lIjogImp1cHl0ZXJodWItdXNlci1sYmFycmVpci1vYXV0aC1zdGF0ZS1BRkJLekRGcSJ9');
+</script>
+
+
+</body>
+
+</html>
