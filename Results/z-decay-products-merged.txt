@@ -54,7 +54,7 @@
         
         options_form: false,
         
-        xsrf_token: "MnwxOjB8MTA6MTc1Nzk0ODM2N3w1Ol94c3JmfDY4OlRtOXVaVHBUWVRFdFFuTjBjeTFDYlVKNFgyRlNVSGcwVFVKbmJYTkxhMHBvU0UxUWMxZEthMWg0WmtKc1YyaDNQUT09fDYyNjMwZTg3NjI4MDVjNDA3ZDFmZDMzN2ZjMzk3NDIxZjE3NjZkNDFiZDg4MTViN2UyMTg2Mjg3NDJlYjI5MzA",
+        xsrf_token: "MnwxOjB8MTA6MTc1Nzk0ODQxM3w1Ol94c3JmfDY4OlRtOXVaVHBUWVRFdFFuTjBjeTFDYlVKNFgyRlNVSGcwVFVKbmJYTkxhMHBvU0UxUWMxZEthMWg0WmtKc1YyaDNQUT09fDk5NDQ1YTBiMjJjOGMwYjU5MTUzMTJlNTRjZThiZDc4N2YzN2YwYzgzMDQwOTBhYzNhMDA1MDUzYjkwOWQ4M2I",
       }
     </script>
 
@@ -180,7 +180,7 @@
 
 
 <script type="text/javascript">
-  window.location.replace('/hub/oauth_login?next=%2Fhub%2Fapi%2Foauth2%2Fauthorize%3Fclient_id%3Djupyterhub-user-lbarreir%26redirect_uri%3D%252Fuser%252Flbarreir%252Foauth_callback%26response_type%3Dcode%26state%3DeyJ1dWlkIjogIjVkMGZkYjc2NzZmYjQwZTI4MjliNGYyODJmM2Q2ZmZmIiwgIm5leHRfdXJsIjogIi91c2VyL2xiYXJyZWlyL2ZpbGVzL1NXQU5fcHJvamVjdHMvUFJPSkVDVC9QeXRoaWEvQlNNL0ItZGF0YS50eHQ_ZG93bmxvYWQ9MSIsICJjb29raWVfbmFtZSI6ICJqdXB5dGVyaHViLXVzZXItbGJhcnJlaXItb2F1dGgtc3RhdGUtc2l5dE9ZV24ifQ');
+  window.location.replace('/hub/oauth_login?next=%2Fhub%2Fapi%2Foauth2%2Fauthorize%3Fclient_id%3Djupyterhub-user-lbarreir%26redirect_uri%3D%252Fuser%252Flbarreir%252Foauth_callback%26response_type%3Dcode%26state%3DeyJ1dWlkIjogImNhMzU2Zjc5YTc4ZTRmMmI5M2E1MjE1MGUzMTg4Yzc2IiwgIm5leHRfdXJsIjogIi91c2VyL2xiYXJyZWlyL2ZpbGVzL1NXQU5fcHJvamVjdHMvUFJPSkVDVC9QeXRoaWEvQlNNL3otZGVjYXktcHJvZHVjdHMtbWVyZ2VkLnR4dD9kb3dubG9hZD0xIiwgImNvb2tpZV9uYW1lIjogImp1cHl0ZXJodWItdXNlci1sYmFycmVpci1vYXV0aC1zdGF0ZS1BRkJLekRGcSJ9');
 </script>
 
 
