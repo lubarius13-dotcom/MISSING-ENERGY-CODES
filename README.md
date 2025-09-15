@@ -1,5 +1,5 @@
 In the Selection algorithms folder the codes used for selecting our signal region can be found. 
-Hadronic selction.ipynb does the hadronic selection out of the total events and adds the detector resolution to the energy of each particle.
+Hadronic selection.ipynb does the hadronic selection out of the total events and adds the detector resolution to the energy of each particle.
 The type of file this code reads is generated using the Pythia simulation that can be found in a zip in the Pythia simulation folder, which includes a Readme file specific for those codes. 
 ALEPH cuts.ipynb and Counts per bin.ipynb contain the ALEPH-like selection
 In this Selection folder we can also find a code that studies the b-tagging efficiency 
