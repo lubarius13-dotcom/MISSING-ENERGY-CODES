@@ -7,7 +7,7 @@ of the final algorithm and a code that creates a background of events, for which
 the thrust cuts and the lepton veto are applied.
 
 In the Results folder we find the B-data-reading.ipynb that contains the comparison between ALEPH data
-and the Pythia simulation regarding the weakly decaying B-meson energy distribution. This file cab be used
+and the Pythia simulation regarding the weakly decaying B-meson energy distribution. This file can be used
 with the ALEPH data found in B data.txt, that is cited in the report.
 Regarding the main selection we find all the plots made in PLOTTING.ipynb.
 Finally, BSM mode.ipynb contains the BSM implementation and Branching ratio.ipynb the
